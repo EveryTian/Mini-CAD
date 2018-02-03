@@ -1,12 +1,10 @@
 # MiniCAD
 
-`任皓天 3150104714`
+====
 
-[TOC]
+## 功能演示
 
-##功能演示
-
-###界面介绍
+### 界面介绍
 
 使用`java -jar MiniCAD.jar`命令打开MiniCAD，打开后的窗口如下图所示：
 
@@ -48,7 +46,7 @@
 
 ![](./readme_images/text_helloworld.png)$\longrightarrow$![](./readme_images/text_show.png)
 
-####图形选取
+#### 图形选取
 
 图形的选取是为了对某一个图形进行颜色、大小、线条粗细以及位置的改变。
 
@@ -224,7 +222,7 @@ protected void drawCadShape(Graphics2D g2d) {
 }
 ```
 
-#####计算点集
+##### 计算点集
 
 MiniCAD实现的一个难点即是计算点集，在这里我们需要使用到高中的解析几何知识，由于无法坐标的整数性，我们无法精确地获得每一点的坐标，因此采用了一定的方法进行了拟合。
 
