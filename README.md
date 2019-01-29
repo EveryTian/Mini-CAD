@@ -34,7 +34,7 @@
 
 开启程序后默认工具为选择工具（Select），此时若要进行图形绘制，需要先使用在菜单栏或工具栏，在其中单击选择相应的绘图工具，在画板区域进行鼠标拖拽即可绘制新图形。
 
-![](./readme_images/paint1.png)$\longrightarrow$![](./readme_images/paint2.png)
+![](./readme_images/paint1.png) -> ![](./readme_images/paint2.png)
 
 不过一个例外是CAD文字（Text）的绘制方式，当使用Text工具时，在画板上进行单击，会弹出以下弹窗：
 
@@ -42,7 +42,7 @@
 
 在此进行输入，点击确认后可以在画板上绘制出默认大小的文字：
 
-![](./readme_images/text_helloworld.png)$\longrightarrow$![](./readme_images/text_show.png)
+![](./readme_images/text_helloworld.png) -> ![](./readme_images/text_show.png)
 
 #### 图形选取
 
@@ -60,7 +60,7 @@
 
    要进行进行位置的变更，则需要在图形有色部分上进行单击拖拽，如下所示：
 
-   ![](./readme_images/move1.png)$\longrightarrow$![](./readme_images/move2.png)
+   ![](./readme_images/move1.png) -> ![](./readme_images/move2.png)
 
 #### 图形更改
 
@@ -310,7 +310,7 @@ protected void genCoordsSet() {
 }
 ```
 
-可以看出，以直线$y=|x|$分成了两种情况进行处理，具体覆盖情况如下：
+可以看出，以直线 `y = |x|` 分成了两种情况进行处理，具体覆盖情况如下：
 
 ![](./readme_images/line_coords.png)
 
